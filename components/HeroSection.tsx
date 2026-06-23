@@ -32,7 +32,7 @@ const HeroSection = () => {
 
         <p className="mt-6 text-lg text-secondary/80 leading-relaxed">
           Frontend developer crafting fast, accessible, pixel-precise products.
-         Nextjs, React, TypeScript, and an unreasonable attention to detail.
+          React, TypeScript, and an unreasonable attention to detail.
         </p>
 
         <div className="font-mono text-sm text-lightGreen/80 mt-6 h-6">
@@ -43,8 +43,11 @@ const HeroSection = () => {
         </div>
 
         <div className="flex items-center gap-4 mt-10">
+          <button className="cursor-pointer CtaPrimary px-6 py-3 rounded-xl bg-primary text-background font-semibold text-sm">
+            View my work
+          </button>
           <button className="cursor-pointer px-6 py-3 rounded-xl border border-secondary/40 text-primary font-semibold text-sm hover:bg-primary/5 transition-colors">
-    Download Resume
+            Get in touch
           </button>
         </div>
       </div>
