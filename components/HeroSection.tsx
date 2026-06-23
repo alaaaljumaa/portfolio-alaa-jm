@@ -43,11 +43,8 @@ const HeroSection = () => {
         </div>
 
         <div className="flex items-center gap-4 mt-10">
-          <button className="cursor-pointer CtaPrimary px-6 py-3 rounded-xl bg-primary text-background font-semibold text-sm">
-            View my work
-          </button>
           <button className="cursor-pointer px-6 py-3 rounded-xl border border-secondary/40 text-primary font-semibold text-sm hover:bg-primary/5 transition-colors">
-            Get in touch
+          Download CV
           </button>
         </div>
       </div>

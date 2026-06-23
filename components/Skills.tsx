@@ -94,7 +94,7 @@ const Skills = () => {
         <div className="flex items-center gap-6 mt-8">
           <button
             onClick={prevSlide}
-            className="p-2 rounded-full border border-secondary/50 text-white hover:border-lightGreen/70 hover:text-lightGreen transition-colors duration-200 focus:outline-none"
+            className="cursor-pointer p-2 rounded-full border border-secondary/50 text-white hover:border-lightGreen/70 hover:text-lightGreen transition-colors duration-200 focus:outline-none"
             aria-label="Previous slide"
           >
             <svg
@@ -129,7 +129,7 @@ const Skills = () => {
 
           <button
             onClick={nextSlide}
-            className="p-2 rounded-full border border-secondary/50 text-white hover:border-lightGreen/70 hover:text-lightGreen transition-colors duration-200 focus:outline-none"
+            className="cursor-pointer p-2 rounded-full border border-secondary/50 text-white hover:border-lightGreen/70 hover:text-lightGreen transition-colors duration-200 focus:outline-none"
             aria-label="Next slide"
           >
             <svg

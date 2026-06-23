@@ -60,7 +60,7 @@ export default function Footer() {
 
           <div className="flex flex-col items-center gap-6">
             <p className="text-sm text-black font-bold">
-              © {currentYear} My Brand. All rights reserved.
+              © {currentYear} alaa jomaa. All rights reserved.
             </p>
           </div>
         </div>
