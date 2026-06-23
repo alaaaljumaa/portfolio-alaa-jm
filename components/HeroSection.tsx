@@ -32,7 +32,7 @@ const HeroSection = () => {
 
         <p className="mt-6 text-lg text-secondary/80 leading-relaxed">
           Frontend developer crafting fast, accessible, pixel-precise products.
-          React, TypeScript, and an unreasonable attention to detail.
+         Nextjs, React, TypeScript, and an unreasonable attention to detail.
         </p>
 
         <div className="font-mono text-sm text-lightGreen/80 mt-6 h-6">

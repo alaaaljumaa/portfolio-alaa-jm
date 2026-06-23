@@ -43,50 +43,78 @@ const Projects = () => {
         >
           <h3 className="text-white font-bold text-xl mb-2">Smart Valet</h3>
           <p className="text-secondary text-sm leading-relaxed line-clamp-4">
-            A smart parking assistant that uses computer vision to detect empty
-            spots and guide drivers in real-time. Built with React Native,
-            TensorFlow Lite, and Firebase.
+            A unified smart platform for modern valet parking and lot
+            management. It goes beyond simple parking control by integrating
+            employee payroll, attendance, and operational analytics into a
+            single dashboard. With support for multiple currencies, customizable
+            receipts, and real-time statistical reporting, this system empowers
+            businesses like VIP Parking Control to manage sites efficiently,
+            track workforce productivity, and deliver a seamless customer
+            experience from entry to exit.
           </p>
           <div className="flex flex-wrap gap-2 mt-4">
             <span className="text-[10px] font-mono px-2 py-1 rounded-full bg-lightGreen/10 text-lightGreen border border-lightGreen/20">
-              React Native
+              React
             </span>
             <span className="text-[10px] font-mono px-2 py-1 rounded-full bg-lightGreen/10 text-lightGreen border border-lightGreen/20">
-              TensorFlow
+              Material UI
             </span>
             <span className="text-[10px] font-mono px-2 py-1 rounded-full bg-lightGreen/10 text-lightGreen border border-lightGreen/20">
-              Firebase
+              SingleR
             </span>
           </div>
-          <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <span className="text-lightGreen text-sm font-mono">
-              View Project →
-            </span>
-          </div>
+
         </div>
         <div className="md:col-span-2 col-span-1 flex flex-col gap-4">
           <div
-            className={`transition-all duration-500 ease-out delay-150 
+            className={`transition-all h-fit duration-500 ease-out delay-150 
           ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}
           group relative bg-[#1a1a1a] border border-secondary/30 rounded-xl p-5 
           hover:border-lightGreen/50 hover:shadow-[0_0_20px_rgba(100,255,100,0.1)] 
           hover:-translate-y-1.5 transition-all duration-300 cursor-pointer flex-1
         `}
           >
-            <h4 className="text-white font-bold text-lg mb-1">Project Alpha</h4>
+            <h4 className="text-white font-bold text-lg mb-1">Shofole</h4>
             <p className="text-secondary text-xs leading-relaxed line-clamp-3">
-              An open‑source CLI tool for automating deployment workflows.
+              Shofole is an innovative digital platform designed to bridge the
+              gap between global machinery markets and end-users. It offers a
+              unique visual discovery experience, allowing users to explore the
+              latest machinery, equipment, tools, and home appliances through
+              high-quality video content captured directly from trade
+              exhibitions and specialized markets. The platform features an
+              intuitive user interface with intelligent search functionality and
+              categorized browsing across Electrical Tools, Home Appliances,
+              Maintenance Tools, and Industrial Equipment. It includes robust
+              user account management (login/signup) for personalized
+              experiences and integrates seamlessly with social media to share
+              insights. The core mission of Shofole is to empower customers,
+              technicians, and business owners to make informed purchasing
+              decisions by providing real, visual proof of product performance
+              and innovation—eliminating the guesswork and physical travel
+              traditionally associated with industrial procurement.
             </p>
             <div className="flex flex-wrap gap-2 mt-2">
               <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-lightGreen/10 text-lightGreen border border-lightGreen/20">
-                Node.js
+                Type Script
               </span>
               <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-lightGreen/10 text-lightGreen border border-lightGreen/20">
-                Docker
+                Tailwind
+              </span>
+              <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-lightGreen/10 text-lightGreen border border-lightGreen/20">
+                Firebase
+              </span>
+              <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-lightGreen/10 text-lightGreen border border-lightGreen/20">
+                React Query
               </span>
             </div>
             <div className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <span className="text-lightGreen text-xs font-mono">→</span>
+              <a
+                href="https://shofole.com/"
+                target="_blank"
+                className="text-lightGreen text-xs font-mono"
+              >
+                →
+              </a>
             </div>
           </div>
 
@@ -98,20 +126,36 @@ const Projects = () => {
           hover:-translate-y-1.5 transition-all duration-300 cursor-pointer flex-1
         `}
           >
-            <h4 className="text-white font-bold text-lg mb-1">Project Beta</h4>
+            <h4 className="text-white font-bold text-lg mb-1">
+              Shofole Dashboard
+            </h4>
             <p className="text-secondary text-xs leading-relaxed line-clamp-3">
-              A real‑time dashboard for monitoring IoT sensor data.
+              Shofole Dashboard – The ultimate command center for managing your
+              industrial video platform. Control content, users, and analytics
+              from a single, powerful interface with ease and professionalism.
             </p>
             <div className="flex flex-wrap gap-2 mt-2">
               <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-lightGreen/10 text-lightGreen border border-lightGreen/20">
-                Vue.js
+                Type Script
               </span>
               <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-lightGreen/10 text-lightGreen border border-lightGreen/20">
-                WebSocket
+                Tailwind
+              </span>
+              <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-lightGreen/10 text-lightGreen border border-lightGreen/20">
+                Firebase
+              </span>
+              <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-lightGreen/10 text-lightGreen border border-lightGreen/20">
+                React Query
               </span>
             </div>
             <div className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <span className="text-lightGreen text-xs font-mono">→</span>
+              <a
+                href="https://app.shofole.com/"
+                target="_blank"
+                className="text-lightGreen text-xs font-mono"
+              >
+                →
+              </a>
             </div>
           </div>
         </div>
