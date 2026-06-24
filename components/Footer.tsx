@@ -16,22 +16,22 @@ export default function Footer() {
   };
 
   return (
-    <footer className="mx-16 sm:mx-24 mt-12 mb-4">
-      <div className="rounded-4xl bg-[#f5a992] px-10 py-10 sm:px-10 sm:py-14 shadow-lg hover:shadow-2xl transition-shadow duration-500">
+    <footer className="mx-4 sm:mx-8 md:mx-16 lg:mx-24 mt-8 sm:mt-12 mb-4">
+      <div className="rounded-4xl bg-[#f5a992] px-4 sm:px-8 md:px-10 py-6 sm:py-10 shadow-lg hover:shadow-2xl transition-shadow duration-500">
         <div className="mx-auto max-w-7xl">
-          <div className="flex flex-col items-center gap-8 md:flex-row md:justify-between md:gap-0">
-            <div className="flex items-center gap-4">
+          <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between md:gap-0">
+            <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 text-center sm:text-left">
               <Link href="/" className="flex items-center gap-2">
                 <Image
                   src="/logo2.png"
                   alt="Logo"
                   width={100}
                   height={100}
-                  className="w-32"
+                  className="w-24 sm:w-32"
                   loading="eager"
                 />
               </Link>
-              <div className="hidden h-10 w-px bg-black/20 sm:block" />
+              <div className="hidden sm:block h-10 w-px bg-black/20" />
               <p className="max-w-xs text-sm font-medium text-black/80">
                 Crafting digital experiences with{" "}
                 <Heart className="inline h-4 w-4 fill-black/60 text-black/60" />{" "}
@@ -39,10 +39,11 @@ export default function Footer() {
               </p>
             </div>
 
+            {/* Navigation Buttons */}
             <nav className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
               <button
                 onClick={() => scrollToSection("home")}
-                className="rounded-full px-4 py-2 text-sm font-medium text-black/80 transition-all duration-300 hover:scale-105 hover:bg-black/10 hover:text-black cursor-pointer"
+                className="rounded-full px-3 sm:px-4 py-2 text-sm font-medium text-black/80 transition-all duration-300 hover:scale-105 hover:bg-black/10 hover:text-black cursor-pointer"
                 aria-label="Scroll to about me section"
               >
                 About me
@@ -50,15 +51,14 @@ export default function Footer() {
 
               <button
                 onClick={() => scrollToSection("contact")}
-                className="rounded-full px-4 py-2 text-sm font-medium text-black/80 transition-all duration-300 hover:scale-105 hover:bg-black/10 hover:text-black cursor-pointer"
+                className="rounded-full px-3 sm:px-4 py-2 text-sm font-medium text-black/80 transition-all duration-300 hover:scale-105 hover:bg-black/10 hover:text-black cursor-pointer"
                 aria-label="Scroll to contact section"
               >
                 Contact
               </button>
             </nav>
           </div>
-
-          <div className="flex flex-col items-center gap-6">
+          <div className="flex flex-col items-center gap-6 mt-6 sm:mt-8">
             <p className="text-sm text-black font-bold">
               © {currentYear} alaa jomaa. All rights reserved.
             </p>

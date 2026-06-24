@@ -20,7 +20,9 @@ export default function RootLayout({
     <html lang="en" className={`h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-black">
         <Header />
-        <main className="flex-1 mx-24  px-8 lg:px-16 py-16">{children}</main>
+        <main className="flex-1 mx-4 sm:mx-8 md:mx-16 lg:mx-24 px-4 sm:px-8 lg:px-16 py-8 sm:py-12 lg:py-16">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

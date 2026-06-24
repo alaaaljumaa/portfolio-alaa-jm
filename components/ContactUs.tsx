@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import LinkedIn from "@/assets/LinkedIn.png";
-import Github from "@/assets/github.svg"
+import Github from "@/assets/github.png"
 
 const ContactUs = () => {
  
@@ -48,7 +48,7 @@ const ContactUs = () => {
                 />
               </a>
             </div>
-            {/* <div id="github" className="my-2">
+            <div id="github" className="my-2">
               <h4 className="font-bold text-white mb-1">GitHub</h4>
               <a
                 href="https://github.com/alaaaljumaa"
@@ -59,12 +59,12 @@ const ContactUs = () => {
                 <Image
                   src={Github}
                   loading="eager"
-                  className="w-16 h-16"
+                  className="w-10 h-10 mt-4"
                   alt="Alaa LinkedIn"
                   
                 />
               </a>
-            </div> */}
+            </div>
           </div>
         </div>
 
