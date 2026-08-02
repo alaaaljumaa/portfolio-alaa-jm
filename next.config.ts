@@ -1,10 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",          // generates static HTML in /out
-  basePath: "/portfolio-alaa-jm/",   // your repo name
+  output: "export",        
+  basePath: "",   
   images: {
-    unoptimized: true,       // required: GH Pages can't run Next's image optimizer
+    unoptimized: true,       
   },
 };
 
