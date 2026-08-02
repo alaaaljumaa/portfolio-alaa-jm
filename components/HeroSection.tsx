@@ -46,7 +46,7 @@ const HeroSection = () => {
         <div className="flex items-center gap-4 mt-6 sm:mt-10">
           <div className="flex items-center gap-4 mt-6 sm:mt-10">
             <a
-              href="/cv.pdf"
+              href="/alaajomaa.pdf"
               download="Alaa_Jomaa_CV.pdf"
               className="cursor-pointer px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl border border-secondary/40 text-primary font-semibold text-sm hover:bg-primary/5 transition-colors inline-block"
             >
